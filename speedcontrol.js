@@ -301,3 +301,4 @@ sophis.VideoControl.insertAll();
 // Necessary for Tuts+ and many non-standard implementations.
 setInterval(sophis.VideoControl.insertAll, 1000);
 
+var unlockvid = setInterval(function(){ if (typeof unlock_vid == 'function') { unlock_vid(); } }, 1000);
